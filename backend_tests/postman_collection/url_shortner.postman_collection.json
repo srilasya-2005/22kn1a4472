@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "95cadbec-878a-4e07-bb96-17508867c2ad",
+		"name": "url_shortner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47186700",
+		"_collection_link": "https://bediro7326-6063051.postman.co/workspace/sample's-Workspace~3ef44671-c5c9-4854-8ce3-585db924abc3/collection/47186700-95cadbec-878a-4e07-bb96-17508867c2ad?action=share&source=collection_link&creator=47186700"
+	},
+	"item": [
+		{
+			"name": "URLshortner",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"https://google.com\",\r\n    \"validity\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/shorten",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"shorten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
